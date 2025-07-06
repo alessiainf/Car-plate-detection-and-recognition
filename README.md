@@ -1,3 +1,55 @@
 # Car-plate-detection-and-recognition
-Project for the 2024/2025 Computer Vision course.
-This repository implements a complete license plate detection and recognition pipeline using YOLOv5 and CRNN. The recognition step is inspired by the methodology described in the PDLPR paper, applied to the CCPD dataset. Since no official code was released, the PDLPR part is reimplemented based on the original paper.
+
+Project "Car Plate Recognition and Reconstruction with Deep Learning" for the 2024/2025 Computer Vision course.
+
+This repository aims to reimplement the [PDLPR paper](https://www.mdpi.com/1424-8220/24/9/2791) and compare its performance with a CRNN model using CTC loss.
+
+For the detection part, we used a pre-trained YOLOv5 model and fine-tuned it on the CCPD2019 dataset ([link to the pre-trained model](https://huggingface.co/keremberke/yolov5n-license-plate)).  
+For the recognition part, we trained the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
+
+
+# Datasets
+Original datasets are available at the following links:
+- [CCPD2019](https://github.com/detectRecog/CCPD): a collection of Chinese vehicle license plates under various real-world conditions.
+- [CCPD2020](https://github.com/detectRecog/CCPD): a collection of Chinese green license plates for electric vehicles.
+- [UC3M-LP](https://github.com/ramajoballester/UC3M-LP): a collection of annotated European (Spanish) license plates.
+
+We created our own customized versions of the above datasets by selecting and reorganizing the folder structure for training and evaluation purposes. 
+
+You can download the modified datasets here: [Datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+# Project Structure
+
+
+# How to run
+
+# Results
+## CCPD2019
+| Subset          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
+|-----------------|------------------|-------------------|-------------------|--------------------|
+| CCPD_base       | 99.90%           | 99.64%            | 99.98%            | 99.93%             |
+| CCPD_blur       | 70.47%           | 60.97%            | 92.87%            | 86.87%             |
+| CCPD_tilt       | 88.16%           | 78.57%            | 97.82%            | 95.60%             |
+| CCPD_fn         | 89.13%           | 82.42%            | 97.90%            | 95.72%             |
+| CCPD_db         | 79.68%           | 66.27%            | 95.94%            | 90.29%             |
+| CCPD_rotate     | 92.04%           | 89.44%            | 98.53%            | 98.02%             |
+| CCPD_challenge  | 81.01%           | 72.13%            | 95.91%            | 91.96%             |
+| CCPD_weather    | 99.36%           | 98.08%            | 99.89%            | 99.62%             |
+
+## CCPD2020
+| Subset          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
+|-----------------|------------------|-------------------|-------------------|--------------------|
+| CCPD_base       | 90.83%           | %            | 97.08%            | %             |
+
+## UC3M-LP
+
+
+# Authors
+- [A. Infantino 1922069](https://github.com/alessiainf)
+- [A. Di Chiara 1938462](https://github.com/AlessandroDiChiara)
+- [F. Fragale 2169937](https://github.com/Bannfrost99)
+
+## Acknowledgments
+- We thank the creators of the [CCPD](https://github.com/detectRecog/CCPD) and [UC3M-LP](https://github.com/ramajoballester/UC3M-LP) datasets for providing publicly available annotated data.
+- This work was developed as part of a university project for license plate detection and recognition.
+
