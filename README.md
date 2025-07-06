@@ -14,9 +14,13 @@ Original datasets are available at the following links:
 - [CCPD2020](https://github.com/detectRecog/CCPD): a collection of Chinese green license plates for electric vehicles.
 - [UC3M-LP](https://github.com/ramajoballester/UC3M-LP): a collection of annotated European (Spanish) license plates.
 
-We created our own customized versions of the above datasets by selecting and reorganizing the folder structure for training and evaluation purposes. 
+We created our own customized versions of the above datasets by selecting and reorganizing the folder structure for training and evaluation purposes. In particular:
 
-You can download the modified datasets here: [Datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- For **CCPD2019**, we used a subset consisting of 30,000 images for training, and 10,000 images each for validation and testing, selected uniformly from each subfolder.
+- For **CCPD2020**, we used the full dataset.
+- For **UC3M-LP**, we only considered license plates of type "A", which correspond to the standard Spanish plate format.
+
+You can download the modified datasets here: [Download datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 # Project Structure
 
