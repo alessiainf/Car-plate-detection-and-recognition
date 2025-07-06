@@ -37,9 +37,9 @@ You can download the modified datasets here: [Datasets](https://www.youtube.com/
 | CCPD_weather    | 99.36%           | 98.08%            | 99.89%            | 99.62%             |
 
 ## CCPD2020
-| Subset          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
+| Set          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
-| CCPD_base       | 90.83%           | %            | 97.08%            | %             |
+| CCPD_2020       | 90.83%           | %            | 97.08%            | %             |
 
 ## UC3M-LP
 
@@ -51,5 +51,6 @@ You can download the modified datasets here: [Datasets](https://www.youtube.com/
 
 ## Acknowledgments
 - We thank the creators of the [CCPD](https://github.com/detectRecog/CCPD) and [UC3M-LP](https://github.com/ramajoballester/UC3M-LP) datasets for providing publicly available annotated data.
+- We also thank [keremberke](https://huggingface.co/keremberke) for providing the pre-trained YOLOv5 model for license plate detection.
 - This work was developed as part of a university project for license plate detection and recognition.
 
