@@ -53,7 +53,7 @@ You can download the modified datasets here: [Download datasets](https://www.you
 - [A. Di Chiara 1938462](https://github.com/AlessandroDiChiara)
 - [F. Fragale 2169937](https://github.com/Bannfrost99)
 
-## Acknowledgments
+# Acknowledgments
 - We thank the creators of the [CCPD](https://github.com/detectRecog/CCPD) and [UC3M-LP](https://github.com/ramajoballester/UC3M-LP) datasets for providing publicly available annotated data.
 - We also thank [keremberke](https://huggingface.co/keremberke) for providing the pre-trained YOLOv5 model for license plate detection.
 - This work was developed as part of a university project for license plate detection and recognition.
