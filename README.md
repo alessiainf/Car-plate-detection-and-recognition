@@ -41,9 +41,9 @@ You can download the modified datasets here: [Download datasets](https://drive.g
 | CCPD_weather    | 99.36%           | 98.08%            | 99.89%            | 99.62%             |
 
 ## CCPD2020
-| Set          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
+| Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
-| CCPD_2020       | 90.83%           | %            | 97.08%            | %             |
+| CCPD_2020       | %           | 90.83%             | %            | 97.08%             |
 
 ## UC3M-LP
 
