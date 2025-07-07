@@ -16,11 +16,11 @@ Original datasets are available at the following links:
 
 We created our own customized versions of the above datasets by selecting and reorganizing the folder structure for training and evaluation purposes. In particular:
 
-- For **CCPD2019**, we used a subset consisting of 30,000 images for training, and 10,000 images each for validation and testing, selected uniformly from each subfolder.
-- For **CCPD2020**, we used the full dataset.
-- For **UC3M-LP**, we only considered license plates of type "A", which correspond to the standard Spanish plate format.
+- For **CCPD2019**, we used a subset consisting of 30,000 images for training, and 10,000 images each for validation and testing, selected uniformly from each subfolder (Detection and recognition).
+- For **CCPD2020**, we used the full dataset (Only recognition).
+- For **UC3M-LP**, we only considered license plates of type "A", which correspond to the standard Spanish plate format (Only recognition).
 
-You can download the modified datasets here: [Download datasets](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+You can download the modified datasets here: [Download datasets](https://drive.google.com/drive/folders/1OFoHWQIxt4oGIwG8GiSzMRre96kkHe7N?usp=drive_link)
 
 # Project Structure
 
