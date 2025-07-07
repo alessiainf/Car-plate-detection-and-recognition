@@ -29,7 +29,7 @@ You can download the modified datasets here: [Download datasets](https://drive.g
 
 # Results
 ## CCPD2019
-| Subset          | Seq. Acc. (CRNN) | Seq. Acc. (PDLPR) | Char. Acc. (CRNN) | Char. Acc. (PDLPR) |
+| Subset          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
 | CCPD_base       | 99.90%           | 99.64%            | 99.98%            | 99.93%             |
 | CCPD_blur       | 70.47%           | 60.97%            | 92.87%            | 86.87%             |
