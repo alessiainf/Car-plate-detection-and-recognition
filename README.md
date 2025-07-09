@@ -78,7 +78,7 @@ Car-plate-detection-and-recognition/
 ## UC3M-LP
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
-| CCPD_2020       | %           | 92.50%             | %            | 96.63%             |
+| UC3M-LP         | %           | 92.50%             | %            | 96.63%             |
 
 # Authors
 - [A. Infantino 1922069](https://github.com/alessiainf)
