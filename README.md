@@ -24,18 +24,7 @@ You can download the modified datasets here: [Download datasets](https://drive.g
 
 # Model Weights
 
-The trained models used for the evaluation can be downloaded from the following links:
-
-**CRNN:**
-- [crnn_ccpd2019.pth](https://drive.google.com/uc?id=xxx)
-- [crnn_ccpd2020.pth](https://drive.google.com/uc?id=xxx)
-- [crnn_uc3m.pth](https://drive.google.com/uc?id=xxx)
-
-**PDLPR:**
-- [pdlpr_ccpd2019.pth](https://drive.google.com/uc?id=xxx)
-- [pdlpr_ccpd2020.pth](https://drive.google.com/uc?id=xxx)
-- [pdlpr_uc3m.pth](https://drive.google.com/uc?id=xxx)
-
+The trained models used for evaluation and fine-tuning can be found at the following link: [Download weights](https://drive.google.com/drive/folders/1BfeRaXrH47S8uYvDaDbehxZHeomWBgFl?usp=sharing)
 
 # Project Structure
 ```
