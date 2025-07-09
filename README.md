@@ -47,6 +47,21 @@ Car-plate-detection-and-recognition/
 # How to run
 
 # Results
+
+## YOLOv5 Detection Results (IoU > 0.7)
+We report both the **Total Accuracy** (correct detections over the full set) and **Detected Accuracy** (correct over detected) for each CCPD2019 subset.
+
+| Subset         | Total Accuracy | Detected Accuracy |
+|----------------|----------------|-------------------|
+| CCPD_base      | 90.74%         | 96.99%            |
+| CCPD_blur      | 35.82%         | 80.31%            |
+| CCPD_challenge | 63.24%         | 88.88%            |
+| CCPD_db        | 37.60%         | 72.34%            |
+| CCPD_fn        | 38.32%         | 83.32%            |
+| CCPD_rotate    | 49.88%         | 89.26%            |
+| CCPD_tilt      | 39.78%         | 83.96%            |
+| CCPD_weather   | 80.97%         | 94.28%            |
+
 ## CCPD2019
 | Subset          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
