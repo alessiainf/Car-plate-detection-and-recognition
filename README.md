@@ -62,7 +62,7 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 | CCPD_tilt      | 39.78%         | 83.96%            |
 | CCPD_weather   | 80.97%         | 94.28%            |
 
-## CCPD2019
+## CCPD2019 
 | Subset          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
 | CCPD_base       | 99.90%           | 99.64%            | 99.98%            | 99.93%             |
@@ -74,12 +74,12 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 | CCPD_challenge  | 81.01%           | 72.13%            | 95.91%            | 91.96%             |
 | CCPD_weather    | 99.36%           | 98.08%            | 99.89%            | 99.62%             |
 
-## CCPD2020
+## CCPD2020 (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
 | CCPD_2020       | %           | 90.83%             | %            | 97.08%             |
 
-## UC3M-LP
+## UC3M-LP (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
 | UC3M-LP         | %           | 92.50%             | %            | 96.63%             |
