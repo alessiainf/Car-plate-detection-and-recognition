@@ -10,8 +10,8 @@ For the recognition part, we trained the models on the CCPD2019 dataset and then
 
 # Datasets
 Original datasets are available at the following links:
-- [CCPD2019](https://github.com/detectRecog/CCPD): a collection of Chinese vehicle license plates under various real-world conditions.
-- [CCPD2020](https://github.com/detectRecog/CCPD): a collection of Chinese green license plates for electric vehicles.
+- [CCPD2019]([https://github.com/detectRecog/CCPD](https://github.com/detectRecog/CCPD?tab=readme-ov-file#ccpd-chinese-city-parking-dataset-eccv)): a collection of Chinese vehicle license plates under various real-world conditions.
+- [CCPD2020](https://github.com/detectRecog/CCPD?tab=readme-ov-file#update-on-16092020-we-add-a-new-energy-vehicle-sub-dataset-ccpd-green-which-has-an-eight-digit-license-plate-number): a collection of Chinese green license plates for electric vehicles.
 - [UC3M-LP](https://github.com/ramajoballester/UC3M-LP): a collection of annotated European (Spanish) license plates.
 
 We created our own customized versions of the above datasets by selecting and reorganizing the folder structure for training and evaluation purposes. In particular:
@@ -76,7 +76,9 @@ Car-plate-detection-and-recognition/
 | CCPD_2020       | %           | 90.83%             | %            | 97.08%             |
 
 ## UC3M-LP
-
+| Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
+|-----------------|------------------|-------------------|-------------------|--------------------|
+| CCPD_2020       | %           | 92.50%             | %            | 96.63%             |
 
 # Authors
 - [A. Infantino 1922069](https://github.com/alessiainf)
