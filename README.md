@@ -22,6 +22,21 @@ We created our own customized versions of the above datasets by selecting and re
 
 You can download the modified datasets here: [Download datasets](https://drive.google.com/drive/folders/1OFoHWQIxt4oGIwG8GiSzMRre96kkHe7N?usp=drive_link)
 
+# Model Weights
+
+The trained models used for the evaluation can be downloaded from the following links:
+
+**CRNN:**
+- [crnn_ccpd2019.pth](https://drive.google.com/uc?id=xxx)
+- [crnn_ccpd2020.pth](https://drive.google.com/uc?id=xxx)
+- [crnn_uc3m.pth](https://drive.google.com/uc?id=xxx)
+
+**PDLPR:**
+- [pdlpr_ccpd2019.pth](https://drive.google.com/uc?id=xxx)
+- [pdlpr_ccpd2020.pth](https://drive.google.com/uc?id=xxx)
+- [pdlpr_uc3m.pth](https://drive.google.com/uc?id=xxx)
+
+
 # Project Structure
 
 

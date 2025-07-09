@@ -1,0 +1,5 @@
+train: /content/CCPD2019_detection/images/train
+val: /content/CCPD2019_detection/images/val
+
+nc: 1  
+names: ['plate']  
