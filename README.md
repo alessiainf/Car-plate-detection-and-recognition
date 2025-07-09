@@ -38,6 +38,20 @@ The trained models used for the evaluation can be downloaded from the following 
 
 
 # Project Structure
+Car-plate-detection-and-recognition/
+├── README.md
+├── 📁 Detection/
+│   ├── Finetune_Yolo.ipynb
+│   ├── configs/
+│       └── ccpd.yaml 
+│
+├── 📁 Recognition/
+    ├── Baseline_CCPD2019.ipynb
+    ├── Baseline_CCPD2020.ipynb
+    ├── Baseline_UC3_LP.ipynb
+    ├── PDLPR_CCPD2019.ipynb
+    ├── PDLPR_CCPD2020.ipynb
+    ├── PDLPR_UC3_LP.ipynb
 
 
 # How to run
