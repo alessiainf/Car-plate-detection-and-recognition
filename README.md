@@ -77,7 +77,7 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 ## CCPD2020 (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
-| CCPD_2020       | %           | 90.83%             | %            | 97.08%             |
+| CCPD_2020       | 87.24%           | 90.83%             | 96.99%            | 97.08%            |
 
 ## UC3M-LP (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
