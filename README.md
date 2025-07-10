@@ -49,8 +49,8 @@ All notebooks in this repository are designed to run on Google Colab.
 To execute them correctly, follow these steps:
 1) Mount your Google Drive at the beginning of each notebook
 2) Organize your files on Drive using the following structure:
-    - Model weights should be placed under: "/content/drive/MyDrive/Computer_vision/...."
-    - Datasets should be stored under: "/content/drive/MyDrive/Dataset_CV/..."
+    - Model weights should be placed under: `"/content/drive/MyDrive/Computer_vision/...."`
+    - Datasets should be stored under: `"/content/drive/MyDrive/Dataset_CV/..."`
 3) Run all cells sequentially from top to bottom.
 
 # Results
