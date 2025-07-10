@@ -22,7 +22,7 @@ We created our own customized versions of the above datasets by selecting and re
 
 You can download the modified datasets here: [Download datasets](https://drive.google.com/drive/folders/1OFoHWQIxt4oGIwG8GiSzMRre96kkHe7N?usp=drive_link)
 
-# Model Weights
+# Models Weights
 
 The trained models used for evaluation and fine-tuning can be found at the following link: [Download weights](https://drive.google.com/drive/folders/1BfeRaXrH47S8uYvDaDbehxZHeomWBgFl?usp=sharing)
 
@@ -45,7 +45,7 @@ Car-plate-detection-and-recognition/
 ```
 
 # How to run
-All notebooks in this repository are designed to run on Google Colab.
+All notebooks in this repository are designed to run on **Google Colab**.
 To execute them correctly, follow these steps:
 1) Mount your Google Drive at the beginning of each notebook
 2) Organize your files on Drive using the following structure:
