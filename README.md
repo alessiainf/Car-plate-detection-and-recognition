@@ -82,7 +82,7 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 ## UC3M-LP (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
-| UC3M-LP         | %           | 92.50%             | %            | 96.63%             |
+| UC3M-LP         | 93.12%           | 92.50%            | 97.26%            | 96.63%             |
 
 # Authors
 - [A. Infantino 1922069](https://github.com/alessiainf)
