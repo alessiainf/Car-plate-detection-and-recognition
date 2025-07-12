@@ -5,7 +5,7 @@ Project "Car Plate Recognition and Reconstruction with Deep Learning" for the 20
 This repository aims to reimplement the [PDLPR paper](https://www.mdpi.com/1424-8220/24/9/2791) and compare its performance with a CRNN model using CTC loss.
 
 For the detection part, we used a pre-trained YOLOv5 model and fine-tuned it on the CCPD2019 dataset ([link to the pre-trained model](https://huggingface.co/keremberke/yolov5n-license-plate)).  
-For the recognition part, we trained the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
+For the recognition part, we trained and tested the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
 
 
 # Datasets
@@ -30,11 +30,13 @@ The trained models used for evaluation and fine-tuning can be found at the follo
 ```
 Car-plate-detection-and-recognition/
 ├── README.md
+├── Presentation.pdf
+├── Yolov5+crnn_CCPD2019.ipynb
+├── Yolov5+pdlpr_CCPD2019.ipynb
 ├── Detection/
 │   ├── Finetune_Yolo.ipynb
 │   ├── configs/
 │       └── ccpd.yaml 
-│
 ├── Recognition/
     ├── crnn_CCPD2019.ipynb
     ├── crnn_CCPD2020.ipynb
@@ -81,6 +83,11 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 | CCPD_challenge  | 81.01%           | 72.13%            | 95.91%            | 91.96%             |
 | CCPD_weather    | 99.36%           | 98.08%            | 99.89%            | 99.62%             |
 
+| Model           | Speed            | Sequence Accuracy   | Character Accuracy   | 
+|-----------------|------------------|---------------------|----------------------|
+| YOLOv5+CRNN     | 42.65 FPS        | 77.57%              | 92.95%               |
+| YOLOv5+PDLPR    | 52.04 FPS        | 89.30%              | 97.70%               |
+
 ## CCPD2020 (Fine-tuning)
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
@@ -90,6 +97,12 @@ We report both the **Total Accuracy** (correct detections over the full set) and
 | Set          | Seq. Acc. (PDLPR) | Seq. Acc. (CRNN) | Char. Acc. (PDLPR) | Char. Acc. (CRNN) |
 |-----------------|------------------|-------------------|-------------------|--------------------|
 | UC3M-LP         | 93.12%           | 92.50%            | 97.88%            | 96.63%             |
+
+# Conclusions
+Our main findings include:
+- PDLPR outperforms CRNN in most CCPD2019 subsets, especially under challenging conditions such as blur, tilt, and occlusion.
+- The YOLOv5+PDLPR pipeline achieved both higher sequence accuracy (89.30%) and faster inference speed (52.04 FPS) compared to YOLOv5+CRNN.
+- On cross-domain datasets (CCPD2020 and UC3M-LP), both models maintained good performance, showing adaptability to different plate formats and visual styles.
 
 # Authors
 - [A. Infantino 1922069](https://github.com/alessiainf)
