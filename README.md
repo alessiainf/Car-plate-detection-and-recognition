@@ -9,8 +9,10 @@ For the recognition part, we trained and tested the models on the CCPD2019 datas
 
 - **CCPD2019**
 <img src="assets/pred_ccpd2019.png" width="100%">
+
 - **CCPD2020**
 <img src="assets/pred_ccpd2020.png" width="100%">
+
 - **UC3M-LP**
 <img src="assets/pred_uc3m-lp.png" width="100%">
 
