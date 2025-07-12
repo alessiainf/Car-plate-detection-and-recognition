@@ -8,6 +8,8 @@ For the detection part, we used a pre-trained YOLOv5 model and fine-tuned it on 
 For the recognition part, we trained and tested the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
 
 <img src="assets/pred_ccpd2019.png" width="100%">
+<img src="assets/pred_ccpd2029.png" width="100%">
+<img src="assets/pred_uc3m-lp.png" width="100%">
 
 
 
