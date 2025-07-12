@@ -5,7 +5,7 @@ Project "Car Plate Recognition and Reconstruction with Deep Learning" for the 20
 This repository aims to reimplement the [PDLPR paper](https://www.mdpi.com/1424-8220/24/9/2791) and compare its performance with a CRNN model using CTC loss.
 
 For the detection part, we used a pre-trained YOLOv5 model and fine-tuned it on the CCPD2019 dataset ([link to the pre-trained model](https://huggingface.co/keremberke/yolov5n-license-plate)).  
-For the recognition part, we trained the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
+For the recognition part, we trained and tested the models on the CCPD2019 dataset and then fine-tuned them on CCPD2020 and UC3M-LP to verify their adaptability to different domains and license plate styles.
 
 
 # Datasets
