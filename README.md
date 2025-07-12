@@ -36,9 +36,9 @@ Car-plate-detection-and-recognition/
 │       └── ccpd.yaml 
 │
 ├── Recognition/
-    ├── Baseline_CCPD2019.ipynb
-    ├── Baseline_CCPD2020.ipynb
-    ├── Baseline_UC3M_LP.ipynb
+    ├── crnn_CCPD2019.ipynb
+    ├── crnn_CCPD2020.ipynb
+    ├── crnn_UC3M_LP.ipynb
     ├── PDLPR_CCPD2019.ipynb
     ├── PDLPR_CCPD2020.ipynb
     ├── PDLPR_UC3M_LP.ipynb
