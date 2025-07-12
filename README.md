@@ -37,7 +37,6 @@ Car-plate-detection-and-recognition/
 │   ├── Finetune_Yolo.ipynb
 │   ├── configs/
 │       └── ccpd.yaml 
-│
 ├── Recognition/
     ├── Baseline_CCPD2019.ipynb
     ├── Baseline_CCPD2020.ipynb
